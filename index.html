@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="./css.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>הזכות לחירות</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul class="ul_header">
+                <img src="./images/logo.png" style="width:150px;" alt="">
+            </ul>
+        </nav>
+    </header>
+
+
+    <main>
+        <section style="display: flex; width: 100%; flex-direction: column; align-items: center;">
+            <h1>ברוכים הבאים לאתר FreeDom  <br>כאן תמצאו את כל המידע על הזכות לחירות ולנגזרות שלה <br></h1>
+            <h2>אז מהי בכלל הזכות לחירות?</h2>
+            <p class="definition">הזכות לחירות היא אחת מזכויות האדם והאזרח, ולפיה כל אדם ראשי לפעול\להחליט\לחיות כרצונו. <br>  בנוסף אין לשלול את החירות של אדם על ידי מעצר או הגבלת חןפש המחשבה והפעולה שלו.  <br> מהזכות לחירות נגזרות מספר של זכויות:</p>
+            <div class="rights_collection_flexed">
+
+                <ul class="ul_rights">
+                    <li class="right" onclick="work()">עיסוק</li>
+                    <li class="right" onclick="Bitoy()">ביטוי</li>
+                    <li class="right" onclick="dat()">חופש דת</li>
+                    <li class="right" onclick="medat()">חופש מדת</li>
+                    <li class="right" onclick="mahashva()">חופש מחשבה ומצפון</li>
+                    <li class="right" onclick="tnoa()">חופש התנועה</li>
+
+                </ul>
+
+                <p class="right_definition" id="def">לחצו על שם הזכות בכדי לקבל את הגדרתה</p>
+
+            </div>
+        </section>
+    </main>
+
+
+
+    <div class="footer">
+        <p style="text-align: center;">כל הזכויות היוצרים של האתר שייכות ל - שי משה, דניאל אורליוב, ג'ונה ליון, יבגני דוייקוב, ג'ני חוג'ייב.</p>
+    </div>
+
+
+    <script>
+        const def = document.getElementById("def");
+        function work() {
+            def.innerHTML = "הזכות לעיסוק - לכל אדם הזכות לעבוד בכל מקצוע לבחירתו,  בכפוף להכשרה או רשיון למשל- רשיון רופא, רשיון טייס .  <a class='more_info' href='./work.html'>למידע נוסף לחץ כאן</a>";
+        }
+        function Bitoy() {
+            def.innerHTML = "לכל אדם הזכות לבטא ולהפיץ את עמדותיו בכל דרך שיבחר ובאופן גלוי.  זכות זו מוגבלת כיוון שלא ניתן לפרסם כל דבר העולה על רוחנו. למשל: סודות מדינה, פגיעה בשמו של אדם אחר ועוד.... <a class='more_info' href='bitoy.html'>לעוד מידע לחצו כאן</a>"
+        }
+        function dat() {
+            def.innerHTML = "לכל אדם הזכות להחזיק בכל אמונה, להשתייך לכל קבוצה דתית, לקיים כל טקס מנהג או פולחן. <a class='more_info' href='dat.html'>לעוד מידע לחצו כאן</a>"
+        }
+        function medat() {
+            def.innerHTML = "לכל אדם הזכות שלא להחזיק בכל אמונה, שלא להשתייך לכל קבוצה דתית, לא לסבול מכפייה או הטפה דתית לא לקיים כל טקס מנהג או פולחן דתי בניגוד לרצונו. <a class='more_info' href='./medat.html'>לעוד מידע לחצו כאן</a>"
+        }
+        function mahashva() {
+            def.innerHTML = "לכל אדם יש את הזכות להחזיר בכל דעה בכל נושא בכל תחום לפי החירתו. לכל אדם יש את הזכות לפעול בהתאם למצפונו או לא לפעול לפיו. <a class='more_info' href='https://www.youtube.com/watch?v=PaKzHt7AF2k' target='_blank'>לסרטון בנושא לחץ כאן</a>"
+        }
+        function tnoa() {
+            def.innerHTML = "לכל אדם הזכות לנוע ולהימצא בכל מקום שיבחר. לאזרחי המדינה יש את הזכות להיכנס ולצאת ממנה כרצונם.<br> בכל מקרה של כליאה, צו עיקוב יציאה מהארץ, איסור כניסה למקומות מסויימים - יש פגיעה בחופש התנועה. <a class='more_info' href='tnoa.html'>לעוד מידע לחצו כאן</a>"
+        }
+    </script>
+</body>
+</html>
