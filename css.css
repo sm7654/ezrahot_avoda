@@ -104,7 +104,7 @@ h2 {
 .footer {
     width: 90%;
     position: absolute;
-    bottom: 0px;
+    bottom: 10px;
     padding: 20px 0px;
     background: linear-gradient(white, #ededed 80%);
     color: black;
