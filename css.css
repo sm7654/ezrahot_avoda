@@ -102,9 +102,9 @@ h2 {
     text-decoration: none;
 }
 .footer {
-    width: 100%;
-    position: relative;
-    top: 90px;
+    width: 90%;
+    position: absolute;
+    bottom: 0px;
     padding: 20px 0px;
     background: linear-gradient(white, #ededed 80%);
     color: black;
